@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/be6b871522.js" crossorigin="anonymous"></script>
+    <title>HealthVeda</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="callContainer">
+        <div class="logo">
+            <img src="./assets/image/logo.png" alt="logo">
+            <h1>HEALTHVEDA</h1>
+        </div>
+        <div class="timing">
+            <div class="call">
+                <h4>CALL US TODAY!</h4>
+                <p>800-555-2368</p>
+            </div>
+            <div class="openingHour">
+                <h4>OPENING HOURS</h4>
+           
+                <p>MON-FRI: 8:00-17:00</p>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="menu">
+            <a href="" active>HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">DEPARTMENT</a>
+            <a href="">REVIEWS</a>
+            <a href="">CONTECT</a>
+            
+        </div>
+
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="banner">
+        <div class="bannerText">
+        <h1>YOUR MOST TRUSTED HEALTH PARTNER FOR LIFE.</h1>
+        <P>We offer world class facilities and free consulting from best doctors, and put your health on top priority.</P>
+        <button onclick="openPopup()">APPOINTMENT</button>
+        <button>LEARN MORE</button>
+        </div>
+
+        <div class="popup">
+            <h2>Book an Appointment</h2>
+            <form action="URL" autocomplete="off">
+                Name <span style="color:red">*</span><br>
+                <input type="text" name="name" placeholder="Enter your name" required class="input"><br>
+        
+                Mobile Number <span style="color:red">*</span><br>
+                <input type="tel" name="mobile" placeholder="Enter your number"  class="input" required><br>
+        
+                Your Query <br>
+                <textarea name="query" 
+                name="message"
+                id="message" cols="30" rows="10" placeholder="Enter Your Query(optional)"
+                    style="height:100px;"></textarea>
+        
+                <button class="appointmentBtn" type="submit">Submit</button>
+                <button class="appointmentBtn" onclick="closePopup()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h1>About HealthVeda Hospitals</h1>
+        <video autoplay muted>
+            <source src="./assets/intro.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="./popup.js"></script>
+</body>
+</html>
