@@ -65,9 +65,16 @@
                 id="message" cols="30" rows="10" placeholder="Enter Your Query(optional)"
                     style="height:100px;"></textarea>
         
-                <button class="appointmentBtn" type="submit">Submit</button>
+                <button class="appointmentBtn" type="submit" onclick="thanksVisible()">Submit</button>
                 <button class="appointmentBtn" onclick="closePopup()">Close</button>
             </form>
+        </div>
+
+        <div class="thanks">
+            <h2 onclick="hide()">X</h2>
+            <img src="./assets/image/tick.png" alt="tick">
+            <h1>Thank You!</h1>
+            <p>our team call you back within 24 hours.</p>
         </div>
     </div>
 

@@ -202,3 +202,53 @@ body{
     height: 60vh;
     margin-bottom: 50px;
 }
+
+.thanks{
+    background-color: #fff;
+    box-shadow: 5px 5px 8px gray;
+    width: 25%;
+    font-family: 'Roboto Slab', serif;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+    visibility: hidden;
+}
+
+.thanks-visible{
+    visibility:visible;
+}
+
+.thanks h2{
+    position: absolute;
+    right: 6%;
+    top: -5px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(240, 114, 114, 0.796);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.thanks img{
+    margin-top: 10%;
+    width: 75px;
+    height: 75px;
+    margin-left: 40%;
+    
+}
+
+.thanks h1{
+    font-family: 'Kaushan Script', cursive;
+    color:#5892FF ;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.thanks p{
+    background-color: rgba(185, 230, 248, 0.796);
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px 0;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 7%;
+}
