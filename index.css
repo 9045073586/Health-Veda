@@ -254,3 +254,192 @@ body{
     font-family: 'Roboto Slab', serif;
     margin-bottom: 7%;
 }
+.sec-3img{
+    width: 80px;
+    height: 70px;
+    margin-top: 40px;
+    
+}
+#section3{
+    width: 100%;
+    height: 700px;
+   background-color: aliceblue;
+    display: flex;
+}
+.section-main{
+   
+    display: flex;
+   margin-top: 8%;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+.sec1{
+    margin-left: 10px;
+   
+}
+.card {
+  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .card-title{
+    font-weight: bold;
+  }
+  
+  #section5{
+    margin-bottom: 200px;
+  }
+  .sec5-img{
+width: 300px;
+height: 300px;
+padding-right: 10px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .sec5-img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .sec5-img1{
+    width: 500px;
+    height: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+  }
+  .sec5-img1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .sec5-img2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .sec5-img2{
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .sec5Img{
+    margin-top: 100px;
+
+  }
+  .sec5{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .sec5Text{
+    padding-top: 200px;
+   
+  }
+  .sec5Text h1{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: bold;
+   font-size: 50px;
+    color:darkblue;
+  }
+  .sec5Text p{
+    padding-left: 100px;
+    padding-right: 150px;
+    
+  }
+  .sec5Img{
+    display: flex;
+  }
+  #section4{
+width: 100%;
+min-height:500px;
+margin-top: 100px;
+background-color: rgb(59, 184, 233);
+  }
+  .sec-4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+  .sec4-img{
+    width: 650px;
+    height: 500px;
+  }
+  .sec4Text{
+    margin-top: 70px;
+  }
+  .sec4Text h1{
+    font-size: 50px;
+    font-weight: bold;
+     color: rgb(3, 24, 41);
+
+    padding-left: 100px;
+    padding-right: 70px;
+  }
+  .sec4Text p{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+  }
+  .qua{
+    color:violet;
+    font-weight: bold;
+  }
+  #carosel{
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+
+  }
+  .carosel1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .caroselText{
+    margin-left: 100px;
+    margin-right: 250px;
+  }
+  .caroselText h1{
+color:darkblue;
+font-weight: bold;
+font-size: 50px;
+  }
+  .caroselText p{
+    font-size: 17px;
+  }
+  .caroselText pre{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+  }
+  .caroselText span{
+    color: #5892FF;
+  }
+  .caroselImage{
+    width: 500px;
+    height: 500px;
+  }
+  #carosel-Button{
+margin-top: 100px;
+margin-left: 150px;
+  }
+  .caroselButton{
+    margin-left: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+
+   
+  }
+  .caroselButton:hover{
+   background-color:green;
+  }
+  .caroselButtonImage{
+    width: 20px;
+    height: 20px;
+  }

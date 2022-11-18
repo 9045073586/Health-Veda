@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/be6b871522.js" crossorigin="anonymous"></script>
+    <title>HealthVeda</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <!--bootsrap-->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--font awesome kit-->
+         <script src="https://kit.fontawesome.com/72f87109fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="callContainer">
+        <div class="logo">
+            <img src="./assets/image/logo.png" alt="logo">
+            <h1>HEALTHVEDA</h1>
+        </div>
+        <div class="timing">
+            <div class="call">
+                <h4>Call us Today!</h4>
+                <p>800-555-2368</p>
+            </div>
+            <div class="openingHour">
+                <h4>opening hours</h4>
+           
+                <p>MON-FRI: 8:00-17:00</p>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="menu">
+            <a href="" active>HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">DEPARTMENT</a>
+            <a href="">REVIEWS</a>
+            <a href="">CONTECT</a>
+            
+        </div>
+
+        <input type="text" placeholder="Search...">
+    </div>
+    <div class="banner">
+        <div class="bannerText">
+        <h1>YOUR MOST TRUSTED HEALTH PARTNER FOR LIFE.</h1>
+        <P>We offer world class facilities and free consulting from best doctors, and put your health on top priority.</P>
+        <button onclick="openPopup()">APPOINTMENT</button>
+        <button>LEARN MORE</button>
+        </div>
+
+        <div class="popup">
+            <h2>Book an Appointment</h2>
+            <form autocomplete="off" id="form">
+                Name <span style="color:red">*</span><br>
+                <input type="text" name="name" placeholder="Enter your name" required class="input"><br>
+        
+                Mobile Number <span style="color:red">*</span><br>
+                <input type="tel" name="mobile" placeholder="Enter your number"  class="input" required><br>
+        
+                Your Query <br>
+                <textarea name="query" 
+                name="message"
+                id="message" cols="30" rows="10" placeholder="Enter Your Query(optional)"
+                    style="height:100px;"></textarea>
+        
+                <button class="appointmentBtn" type="submit" onclick="thanksVisible()">Submit</button>
+                <button class="appointmentBtn" onclick="closePopup()">Close</button>
+            </form>
+        </div>
+
+        <div class="thanks">
+            <h2 onclick="hide()">X</h2>
+            <img src="./assets/image/tick.png" alt="tick">
+            <h1>Thank You!</h1>
+            <p id="thanksPara"></p>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h1>About HealthVeda Hospitals</h1>
+        <video autoplay muted>
+            <source src="./assets/intro.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <section  id="section3">
+
+    <div class="section-main">
+        <div class="sec1">
+        <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="sec-3img"src="./assets/image/doctor.png" alt="doctor.image">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Top Level Doctors</h5>
+                  <p class="card-text">Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img class="sec-3img" src="./assets/image/microscope.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Modern Equipment</h5>
+                  <p class="card-text">Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec1">
+          <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img  class="sec-3img" src="./assets/image/medical-record.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Qualified Facilities</h5>
+                  <p class="card-text"> Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor.</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+               <img  class="sec-3img" src="./assets/image/hospital-bed.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Medical Counseling</h5>
+                  <p class="card-text"> Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor.</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="sec1">
+          <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img  class="sec-3img" src="./assets/image/medical-report.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Professional Services</h5>
+                  <p class="card-text">Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor.</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img  class="sec-3img" src="./assets/image/ambulance.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Emergency Help</h5>
+                  <p class="card-text">Porta semper lacus at cursus primis ultrice in ligula risus an auctor tempus feugiat dolor  an auctor tempus .</p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        </section>
+        <section id="Section5">
+            <div class="sec5" >
+                <div class="sec5Text">
+                <h1>Solutions to Complex Medical Problems</h1>
+                <p>An enim nullam tempor sapien gravida donec enim ipsum blandit lorem porta justo integer in odio velna vitae auctor integer congue magna at pretium purus pretium ligula rutrum itae laoreet augue posuere and curae integer congue leo metus mollis primis</p>
+                <img class="sec-3img"src="./assets/image/doctor.png" alt="doctor.image"> 
+                <img  class="sec-3img" src="./assets/image/hospital-bed.png" alt="">
+              </div>
+                <div class="sec5Img">
+                  <div class="img5Div">
+<img class="sec5-img"src="./assets/image/pexels-mart-production-7088526.jpg" alt=""><br>
+<img class="sec5-img2" src="./assets/image/pexels-zakir-rushanly-11661531.jpg" alt="">
+                  </div>
+                  <div>
+<img class="sec5-img1" src="./assets/image/pexels-pavel-danilyuk-5996762.jpg" alt="">
+
+</div>
+                </div>
+
+            </div>
+
+        </section>
+
+ 
+
+        <section id="section4">
+            <div class="sec-4">
+            <div class="sec4Img">
+<img class="sec4-img"src="./assets/image/o-DOCTOR-facebook.jpg" alt="">
+            </div>
+            <div class="sec4Text">
+                 <p class="qua">QUALIFIED DOCTORS</p>
+                 <h1 class="Text">
+                    Group of Certified and Experienced Doctors
+                 </h1>
+                 <p class="Text" >
+                    Maecenas gravida porttitor nuncquis vehicula magna luctus tempor. 
+                    Quisque vel laoreet turpis urna augue viverra a augue eget dictum tempor diam pulvinar massa purus nulla
+                 </p>
+                 <p class="Text" >
+                    Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium purus feugiat dolor impedit
+                 </p>
+                 <p class="Text" >
+                    Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien undo pretium purus feugiat dolor impedit magna purus pretium gravida donec ligula massa in faucibus
+                 </p>
+
+            </div>
+        </div>
+        </section>
+        <section id="carosel-Button">
+          <button class="caroselButton"><img class="caroselButtonImage"src="./assets/image/stethoscope.png" alt="">Pediatrics</button>
+          <button class="caroselButton"><img class="caroselButtonImage" src="" alt="">Hematology</button>
+          <button class="caroselButton"><img class="caroselButtonImage" src="" alt="">MRI</button>
+          <button class="caroselButton"><img class="caroselButtonImage" src="" alt="">X-Ray</button>
+           </section>
+      <section id="carosel">
+        <div class="carosel1">
+          <div class="caroselImg">
+ <img  class="caroselImage"src="./assets/image/th.jpg" alt="">
+          </div>
+          <div class="caroselText">
+  <h1>Pediatrics</h1>
+  <p>An enim nullam tempor sapien gravida donec enim ipsum blandit justo integer velna vitae auctor integer congue magna pretium purus pretium ligula rutrum itae laoreet cubilia laoreetan augue lorem ipsum egestas vitae ligula vitae arcu blandit ultrice ligula egestas magna suscipit</p>
+  <pre>
+<span>>></span> Nemo ipsam egestas volute       <span>>></span>Nemo ipsam egestas volute 
+      turpis dolores                        turpis dolores
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+  </pre>
+  <button type="button" class="btn btn-info btn-large">View More Details</button>
+          </div>
+
+        </div>
+      </section>
+      <section id="carosel">
+<div class="carosel1">
+<div class="caroselImg">
+  <img class="caroselImage"src="./assets/image/th (1).jpg" alt="">
+</div>
+<div class="caroselText">
+  <h1>Hematology</h1>
+  <p>An enim nullam tempor sapien gravida donec enim ipsum blandit justo integer velna vitae auctor integer congue magna pretium purus pretium ligula rutrum itae laoreet cubilia laoreetan augue lorem ipsum egestas vitae ligula vitae arcu blandit ultrice ligula egestas magna suscipit</p>
+  <pre>
+<span>>></span> Nemo ipsam egestas volute       <span>>></span>Nemo ipsam egestas volute 
+      turpis dolores                        turpis dolores
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+  </pre>
+  <button type="button" class="btn btn-info btn-large">View More Details</button>
+          </div>
+
+</div>
+      </section>
+      <section id="carosel">
+<div class="carosel1">
+  <div class="caroselImg">
+<img class="caroselImage" src="./assets/image/th (2).jpg" alt="">
+  </div>
+  <div class="caroselText">
+    <h1>MRI</h1>
+    <p>An enim nullam tempor sapien gravida donec enim ipsum blandit justo integer velna vitae auctor integer congue magna pretium purus pretium ligula rutrum itae laoreet cubilia laoreetan augue lorem ipsum egestas vitae ligula vitae arcu blandit ultrice ligula egestas magna suscipit</p>
+    <pre>
+  <span>>></span> Nemo ipsam egestas volute       <span>>></span>Nemo ipsam egestas volute 
+        turpis dolores                        turpis dolores
+  
+  <span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+       suscipit mollis                       a vitae suscipit
+  
+  <span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+       suscipit mollis                       a vitae suscipit
+    </pre>
+    <button type="button" class="btn btn-info btn-large">View More Details</button>
+            </div>
+</div>
+      </section>
+      <section id="carosel">
+        <div class="carosel1"> 
+<div class="caroselImg">
+<img class="caroselImage" src="./assets/image/x-ray" alt="">
+</div>
+<div class="caroselText">
+  <h1>X-Ray Diagnostic</h1>
+  <p>An enim nullam tempor sapien gravida donec enim ipsum blandit justo integer velna vitae auctor integer congue magna pretium purus pretium ligula rutrum itae laoreet cubilia laoreetan augue lorem ipsum egestas vitae ligula vitae arcu blandit ultrice ligula egestas magna suscipit</p>
+  <pre>
+<span>>></span> Nemo ipsam egestas volute       <span>>></span>Nemo ipsam egestas volute 
+      turpis dolores                        turpis dolores
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+
+<span>>></span> Magna luctus tempor            <span>>></span>Magna luctus tempor blandit 
+     suscipit mollis                       a vitae suscipit
+  </pre>
+  <button type="button" class="btn btn-info btn-large">View More Details</button>
+          </div>
+
+        </div>
+
+      </section>
+          
+
+
+
+        
+
+
+    <script src="./popup.js"></script>
+</body>
+</html>
